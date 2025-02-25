@@ -40,7 +40,10 @@
 					"@dbeaver-connection-type@": "BASIC",
 					"@dbeaver-sid-service@": "SERVICE"
 				},
-				"auth-model": "oracle_native"
+				"auth-model": "oracle_native",
+				"bootstrap": {
+					"txnIsolation": 2
+				}
 			},
 			"filters": [
 				{
